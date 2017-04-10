@@ -334,6 +334,14 @@
         "default": false
       },
       {
+        "label": "Apply penalties",
+        "name": "applyPenalties",
+        "type": "boolean",
+        "importance": "low",
+        "description": "Decreases the score for each wrong answer given.",
+        "default": true
+      },
+      {
         "name": "randomAnswers",
         "type": "boolean",
         "label": "Randomize answers",

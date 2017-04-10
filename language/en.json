@@ -150,6 +150,10 @@
           "description": "Enable to give a total of one point for multiple correct answers. This will not be an option in \"Single answer\" mode."
         },
         {
+          "label": "Apply penalties",
+          "description": "Decreases the score for each wrong answer given."
+        },
+        {
           "label": "Randomize answers",
           "description": "Enable to randomize the order of questions on display."
         },

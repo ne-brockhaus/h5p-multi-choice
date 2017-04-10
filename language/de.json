@@ -150,6 +150,10 @@
           "description": "Aktivieren, um insgesamt einen Punkt für Multiple-Choice-Antworten zu vergeben. Dies ist keine Option im \"Single Choice\"-Modus."
         },
         {
+          "label": "Strafpunkte vergeben",
+          "description": "Zieht für jede falsche Antwort einen Punkt ab."
+        },
+        {
           "label": "Antworten zufällig anordnen",
           "description": "Aktivieren, um die Fragen auf dem Bildschirm zufällig anzuordnen."
         },

@@ -105,6 +105,7 @@ H5P.MultiChoice = function (options, contentId, contentData) {
       enableSolutionsButton: true,
       type: 'auto',
       singlePoint: true,
+      applyPenalties: true,
       randomAnswers: false,
       showSolutionsRequiresInput: true,
       disableImageZooming: false,
@@ -799,7 +800,7 @@ H5P.MultiChoice = function (options, contentId, contentData) {
         if (choice.correct) {
           score += weight;
         }
-        else {
+        else if(params.behaviour.applyPenalties) {
           score -= weight;
         }
         var num = parseInt($(el).data('id'));
