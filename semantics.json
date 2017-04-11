@@ -339,7 +339,7 @@
         "type": "boolean",
         "importance": "low",
         "description": "Decreases the score for each wrong answer given.",
-        "default": true
+        "default": false
       },
       {
         "name": "randomAnswers",
