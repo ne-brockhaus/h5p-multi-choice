@@ -105,7 +105,7 @@ H5P.MultiChoice = function (options, contentId, contentData) {
       enableSolutionsButton: true,
       type: 'auto',
       singlePoint: true,
-      applyPenalties: true,
+      applyPenalties: false,
       randomAnswers: false,
       showSolutionsRequiresInput: true,
       disableImageZooming: false,
